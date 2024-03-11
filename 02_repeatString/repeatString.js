@@ -1,10 +1,11 @@
 let result = "";
 
 function repeatString(string, num) {
-    for (let i = 0; i < 3; i++) {
-    result += string
+    result = string
+    for (let i = 0; i < num - 1; i++) {
+    result += string;
 }
-return result
+return result;
 }
 
 
